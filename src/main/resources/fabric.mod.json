@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "botw_inventory",
+  "version": "${version}",
+  "name": "BOTW Inventory",
+  "description": "Replaces the inventory screen with a Breath of the Wild style inventory.",
+  "authors": ["Thetecker"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.thetecker.botwinventory.BotwInventoryClient"] },
+  "mixins": ["botw_inventory.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
