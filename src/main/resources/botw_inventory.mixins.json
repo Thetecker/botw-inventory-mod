@@ -1,8 +1,0 @@
-{
-  "required": true,
-  "minVersion": "0.8",
-  "package": "com.thetecker.botwinventory.mixin",
-  "compatibilityLevel": "JAVA_21",
-  "client": ["MinecraftMixin"],
-  "injectors": { "defaultRequire": 1 }
-}
